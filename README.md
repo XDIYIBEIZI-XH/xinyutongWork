@@ -1,4 +1,4 @@
-# ele
+# 鑫_factory
 
 > A Vue.js project
 
@@ -25,6 +25,9 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+项目还在完善中，目前仅有首页功能。
 
 
 此项目入到的问题
