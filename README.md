@@ -50,14 +50,16 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
    引入的时候文件缺少 ; 结束符
 
 5. transition-group 过渡动画使用时，用法（注意： key值不能用index，否则报错）
-```html
-                <transition-group name='list' tag="ul">
-                    <li v-for="(items,index) in bannerData" :key="items.banner_title" v-show="curpage == index">
-                         <div class="item" v-for="(items,index) in bannerData" :key="index" v-show="curpage == index">
-                            <h3 class="banner_title">{{items.banner_title}}</h3>
-                            <div class="banner_text">{{items.banner_text}}</div>
-                            <div class="banner_button"> <a target="_blank" title="详细咨询">{{items.banner_button}}</a> </div>
-                        </div>
-                    </li>
-                </transition-group>
+``` bash
+<transition-group name='list' tag="ul">
+  <li v-for="(items,index) in bannerData" :key="items.banner_title" v-show="curpage == index">
+    <div class="item" v-for="(items,index) in bannerData" :key="index" v-show="curpage == index">
+      <h3 class="banner_title">{{items.banner_title}}</h3>
+      <div class="banner_text">{{items.banner_text}}</div>
+      <div class="banner_button">
+        <a target="_blank" title="详细咨询">{{items.banner_button}}</a> 
+      </div>
+    </div>
+  </li>
+</transition-group>
 ```
