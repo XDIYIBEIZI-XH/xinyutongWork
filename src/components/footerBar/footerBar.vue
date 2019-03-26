@@ -32,8 +32,8 @@
                         <div class="footer_link_title">友情链接</div>
                         <ul id="frientLinks">
                             <li><a href='http://www.mycodes.net/' target='_blank'>源码之家</a> </li>
-                            <li><a href='#' target='_blank'>原码地址gitHub</a> </li>
-                            <li><a href='#' target='_blank'>个人主页</a> </li>
+                            <li><a href='https://github.com/cookingHero/xinyutongWork.git' target='_blank'>原码地址gitHub</a> </li>
+                            <li><a href='https://cookinghero.github.io/' target='_blank'>个人主页</a> </li>
                         </ul>
                     </div>
                     </div>

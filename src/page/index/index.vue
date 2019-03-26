@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="">
         <!-- 文字轮播 -->
         <main-lunbo></main-lunbo>
         <!-- 侧边框按钮 -->

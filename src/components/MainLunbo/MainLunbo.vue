@@ -79,16 +79,6 @@ export default {
     }
 
     /* 必需 */
-    // .list-transition {
-    //     transition: all 1.5s ease;
-    //     opacity: 1;
-    // }
-
-    /* .expand-enter 定义进入的开始状态 */
-    /* .expand-leave 定义离开的结束状态 */
-    // .list-enter, .list-leave {
-    //     opacity: 0;
-    // }
 
     .list-enter-active, .list-leave-active {
         transition: all 1s;

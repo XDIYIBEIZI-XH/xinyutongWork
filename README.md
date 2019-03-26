@@ -66,3 +66,17 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
   </li>
 </transition-group>
 ```
+6. 关闭vue-cli的黄色警告
+  脚手架创建项目的时候 不小心安装了eslint，运行时报了一堆警告！
+  ```html
+    const createLintingRule = () => ({
+      /*test: /\.(js|vue)$/,
+      loader: 'eslint-loader',
+      enforce: 'pre',
+      include: [resolve('src'), resolve('test')],
+      options: {
+          formatter: require('eslint-friendly-formatter'),
+          emitWarning: !config.dev.showEslintErrorsInOverlay
+      }*/
+    })
+  ```

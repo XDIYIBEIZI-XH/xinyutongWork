@@ -2,7 +2,9 @@
   <div id="app">
     <!-- 顶部 banner -->
     <top-banner></top-banner>
-    
+    <!-- 侧边框按钮 -->
+    <slide-btn></slide-btn>
+
     <router-view/>
     <!-- 底部 -->
     <footer-bar></footer-bar>
@@ -11,12 +13,15 @@
 
 <script>
 import TopBanner from 'components/TopBanner/TopBanner.vue';
-import footerBar from 'components/footerBar/footerBar.vue'
+import footerBar from 'components/footerBar/footerBar.vue';
+import SlideBtn from 'components/SlideBtn/SlideBtn.vue'
+
 export default {
 
   components: {
     'top-banner': TopBanner,
-    "footer-bar": footerBar
+    "footer-bar": footerBar,
+    'slide-btn': SlideBtn
   }
 }
 </script>
