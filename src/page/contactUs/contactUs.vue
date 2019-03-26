@@ -1,7 +1,7 @@
 
 <template>
     <div>
-        <h3>我是hello word页面，哈哈哈啊哈哈哈</h3>
+        <h3>我是联系我们页面，哈哈哈啊哈哈哈</h3>
     </div>
 </template>
 <script>
