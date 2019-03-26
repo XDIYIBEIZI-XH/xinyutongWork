@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      logoPic: require("../../assets/images/logo.png"),
+      logoPic: require("../../assets/images/mylogo.png"),
       type: "/",
       bannerList: [
         {'bannerName': '首页', 'bannerUrl': '/'},
